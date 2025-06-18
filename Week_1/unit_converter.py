@@ -1,4 +1,5 @@
-#Mini Project Unit Converter Program
+# Mini Project Week 1 Unit Converter Program.
+# Create a script unit_converter.py: Ask the user: Type of conversion: temperature, distance, time. Input value. Output the converted result.
 print("Choose Conversion: \n1) Temperature \n2) Distance \n3) Time")
 choice = int(input("Enter type (1-3): "))
 match choice:

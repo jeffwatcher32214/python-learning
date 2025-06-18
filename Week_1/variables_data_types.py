@@ -1,4 +1,4 @@
-#Variables and Data Types
+# Create variables of different types (int, float, str, bool). Use type() to verify data types
 age = 25
 height = 5.9
 name = "Mr. Nobody"
