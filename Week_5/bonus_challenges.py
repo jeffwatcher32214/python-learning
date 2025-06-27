@@ -24,8 +24,10 @@ def print_keyword_arguments(**kwargs):
         for key, value in kwargs.items():
             print(f"{key}: {value}")
 
-print_keyword_arguments(name="Alice", age=30, country="USA")
+def main():
+    print_keyword_arguments(name="Alice", age=30, country="USA")
+    print_keyword_arguments(language="Python", level="Intermediate")
+    print_keyword_arguments()
 
-print_keyword_arguments(language="Python", level="Intermediate")
-
-print_keyword_arguments()
+if __name__ == "__main__":
+    main()
